@@ -1,15 +1,18 @@
 {
   "name": "first-extension",
   "displayName": "my-first-extension",
-  "description": "Demo Vs Code extension",
+  "description": "Custom error detection for JS/TS/Java files with bilingual support",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.108.1"
   },
-  "categories": [
-    "Other"
+  "categories": ["Other"],
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:typescript",
+    "onLanguage:java",
+    "onCommand:first-extension.helloWorld"
   ],
-  "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
@@ -17,7 +20,18 @@
         "command": "first-extension.helloWorld",
         "title": "Hello World"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Custom Errors",
+      "properties": {
+        "hoverErrors.language": {
+          "type": "string",
+          "enum": ["en", "hi"],
+          "default": "en",
+          "description": "Error message language: 'en' for English, 'hi' for Hindi"
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
