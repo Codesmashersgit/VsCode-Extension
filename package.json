@@ -1,8 +1,9 @@
 {
-  "name": "first-extension",
-  "displayName": "my-first-extension",
+  "name": "first-extension-sudhanshu",
+  "displayName": "First Extension – Smart Error Detection",
   "description": "Custom error detection for JS/TS/Java files with bilingual support",
   "version": "0.0.1",
+  "publisher": "SudhanshuRaj",
   "engines": {
     "vscode": "^1.108.1"
   },
@@ -50,5 +51,13 @@
     "typescript": "^5.9.3",
     "@vscode/test-cli": "^0.0.12",
     "@vscode/test-electron": "^2.5.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Codesmashersgit/VsCode-Extension"
+  },
+  "bugs": {
+    "url": "https://github.com/Codesmashersgit/VsCode-Extension/issues"
+  },
+  "homepage": "https://github.com/Codesmashersgit"
 }
