@@ -1,17 +1,16 @@
-# 🚀 First Extension – Smart Error Detection (EN / HI)
+# 🐞 BugBhai – Smart Error Helper for JS/TS
 
-A powerful Visual Studio Code extension that detects common coding errors and displays **clear, user-friendly messages** in **English 🇬🇧 or Hindi 🇮🇳**.
+**BugBhai** is a **fun and powerful VS Code extension** that detects common coding errors in **JavaScript and TypeScript** and displays **friendly messages** in **English 🇬🇧 or Hindi 🇮🇳**.  
 
-Perfect for **beginners, students, and developers** who want faster understanding of errors in **JavaScript, TypeScript, and Java**.
+Perfect for **beginners, students, and developers** who want faster understanding of errors, cleaner code, and a little fun while coding! 😎
 
 ---
 
 ## ✨ Features
 
-✅ Detects common errors in:
+✅ **Detects common errors** in:
 - JavaScript
 - TypeScript
-- Java
 
 🌐 **Bilingual Error Messages**
 - English (`en`)
@@ -22,11 +21,15 @@ Perfect for **beginners, students, and developers** who want faster understandin
 - Helps beginners learn faster
 
 ⚡ **Lightweight & Fast**
-- No performance impact
 - Activates only for supported languages
+- No performance impact
 
-🖱️ **Command Support**
-- Includes a test command to verify extension is working
+🖱️ **Hover & Diagnostics**
+- Shows **missing semicolons**
+- Detects **undefined variables**
+- Warns about **unused functions**
+- Highlights **incomplete blocks**
+- Hover explanation in chosen language
 
 ---
 
@@ -35,21 +38,12 @@ Perfect for **beginners, students, and developers** who want faster understandin
 This extension contributes the following setting:
 
 | Setting | Description | Default |
-|-------|------------|--------|
+|--------|------------|--------|
 | `hoverErrors.language` | Select error message language (`en` or `hi`) | `en` |
 
-### Example:
+### Example configuration in `settings.json`:
+
 ```json
 {
   "hoverErrors.language": "hi"
 }
-
-
-## 📬 Contact & Support
-
-If you face any issues, have feature requests, or want to collaborate, feel free to contact:
-
-- 👤 **Author:** Sudhanshu Raj  
-- 📧 **Email:** sudhanshu.ok1802@gmail.com  
-- 🐙 **GitHub:** https://github.com/Codesmashersgit 
-
