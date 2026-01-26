@@ -47,3 +47,13 @@ This extension contributes the following setting:
 {
   "hoverErrors.language": "hi"
 }
+
+---
+
+## 📬 Contact & Support
+
+If you face any issues, have feature requests, or want to collaborate, feel free to contact:
+
+- 👤 **Author:** Sudhanshu Raj
+- 📧 **Email:** sudhanshu.ok1802@gmail.com
+- 🐙 **GitHub:** [https://github.com/Codesmashersgit](https://github.com/Codesmashersgit)
