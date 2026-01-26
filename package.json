@@ -1,10 +1,10 @@
 {
-  "name": "bugbhai",
+  "name": "first-extension-sudhanshu",
   "displayName": "BugBhai",
   "description": "Friendly JS/TS error detection with bilingual support",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "SudhanshuRaj",
-  "icon": "images/21004063.jpg",
+  "icon": "image/21004063.jpg",
   "engines": {
     "vscode": "^1.108.1"
   },
