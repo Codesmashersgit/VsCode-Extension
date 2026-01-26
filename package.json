@@ -1,9 +1,10 @@
 {
-  "name": "first-extension-sudhanshu",
-  "displayName": "First Extension – Smart Error Detection",
-  "description": "Custom error detection for JS/TS/Java files with bilingual support",
+  "name": "bugbhai",
+  "displayName": "BugBhai",
+  "description": "Friendly JS/TS error detection with bilingual support",
   "version": "0.0.1",
   "publisher": "SudhanshuRaj",
+  "icon": "images/21004063.jpg",
   "engines": {
     "vscode": "^1.108.1"
   },
@@ -11,19 +12,18 @@
   "activationEvents": [
     "onLanguage:javascript",
     "onLanguage:typescript",
-    "onLanguage:java",
-    "onCommand:first-extension.helloWorld"
+    "onCommand:bugbhai.helloWorld"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "first-extension.helloWorld",
+        "command": "bugbhai.helloWorld",
         "title": "Hello World"
       }
     ],
     "configuration": {
-      "title": "Custom Errors",
+      "title": "BugBhai Settings",
       "properties": {
         "hoverErrors.language": {
           "type": "string",
