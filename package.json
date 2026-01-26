@@ -2,7 +2,7 @@
   "name": "first-extension-sudhanshu",
   "displayName": "BugBhai",
   "description": "Friendly JS/TS error detection with bilingual support",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "SudhanshuRaj",
   "icon": "image/21004063.jpg",
   "engines": {
